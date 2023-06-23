@@ -1,0 +1,20 @@
+<model-viewer src="4pboard.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="63.24deg 72.84deg 28.71m" field-of-view="30deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="4.550718241784614m 4.8453819695691145m 2.865433074743926m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">cedar wood</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="2.8780643305978133m 2.0496388876424163m 3.4662987209128246m" data-normal="0.3732460502450399m 0.22070915073259595m 0.9010964747236412m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">stainless steel</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.9518213526446753m 3.5823375501053087m 2.8654331078539195m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">sandal wood</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.646857867730487m 5.329092050503684m 2.8654330747439225m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">₦500,000</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
